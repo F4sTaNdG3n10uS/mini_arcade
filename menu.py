@@ -1,4 +1,4 @@
-from games import snake, morpion, quizz, pendu, nombre_mystere
+from jeux import snake, morpion, quizz, pendu, nombre_mystere
 
 def show_menu():
     print("Bienvenue dans Mini-Arcade !")
