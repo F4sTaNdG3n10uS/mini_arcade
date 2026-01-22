@@ -1,6 +1,6 @@
 import pygame
 pygame.init()
-screen = pygame.display.set_mode((500,500))
+screen = pygame.display.set_mode((800,700))
 pygame.display.set_caption("Morpion")
 running = True
 while running:
