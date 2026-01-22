@@ -3,7 +3,7 @@ import pygame
 def start():
     pygame.init()
 
-    screen = pygame.display.set_mode((400, 400))
+    screen = pygame.display.set_mode((800, 700))
     pygame.display.set_caption("Snake")
 
     clock = pygame.time.Clock()
