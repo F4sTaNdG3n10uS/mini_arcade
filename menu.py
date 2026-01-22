@@ -18,11 +18,29 @@ def show_menu():
         quizz.start()
     elif choix == "4":
         pendu.start()
+<<<<<<< HEAD
     elif choix == "5":
         nombremystère.start()
+=======
+    
+>>>>>>> a210dc7de3a5ff24273f36ad4610bd81f57fd16e
     else:
         print("Choix invalide")
 
 # si tu veux tester directement le menu
 if __name__ == "__main__":
     show_menu()
+from jeux import snake
+
+def show_menu():
+    while True:
+        print("\n--- MINI ARCADE ---")
+        print("1 - Snake")
+        print("2 - Quitter")
+
+        choix = input("Choix : ")
+
+        if choix == "1":
+            snake.start()  # 🎮 lance le mini-jeu pygame
+        elif choix == "2":
+            break
