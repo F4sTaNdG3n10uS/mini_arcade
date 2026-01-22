@@ -1,4 +1,4 @@
-from jeux import snake, morpion, quizz, pendu, nombre_mystere
+from jeux import snake, morpion, quizz, pendu, nombremystère
 
 def show_menu():
     print("Bienvenue dans Mini-Arcade !")
@@ -19,7 +19,7 @@ def show_menu():
     elif choix == "4":
         pendu.start()
     elif choix == "5":
-        nombre_mystere.start()
+        nombremystère.start()
     else:
         print("Choix invalide")
 
