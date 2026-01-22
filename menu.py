@@ -18,12 +18,9 @@ def show_menu():
         quizz.start()
     elif choix == "4":
         pendu.start()
-<<<<<<< HEAD
     elif choix == "5":
         nombremystère.start()
-=======
     
->>>>>>> a210dc7de3a5ff24273f36ad4610bd81f57fd16e
     else:
         print("Choix invalide")
 
